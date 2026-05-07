@@ -147,8 +147,8 @@ export default function Hero() {
         >
           <p>
             I architect and develop enterprise-grade mobile applications using React Native,
-            TypeScript, and modern development practices. With 2.5+ years of experience,
-            I&apos;ve delivered 10+ production apps serving 50K+ users with 99.7% crash-free performance.
+            TypeScript, and modern development practices. With 3.5+ years of experience,
+            I&apos;ve delivered 12 apps serving 50K+ users with 99.7% crash-free performance.
           </p>
         </motion.div>
 
@@ -252,7 +252,7 @@ export default function Hero() {
               <FaRocket />
             </div>
             <div className={styles.statContent}>
-              <strong>2.5+</strong>
+              <strong>3.5+</strong>
               <span>Years Experience</span>
             </div>
           </motion.div>
@@ -267,7 +267,7 @@ export default function Hero() {
               <FaCode />
             </div>
             <div className={styles.statContent}>
-              <strong>10+</strong>
+              <strong>12</strong>
               <span>Apps Delivered</span>
             </div>
           </motion.div>

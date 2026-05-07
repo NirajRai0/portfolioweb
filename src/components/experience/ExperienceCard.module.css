@@ -1,0 +1,53 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
+  border: 1px solid rgba(255,255,255,0.06);
+  padding: 18px;
+  border-radius: 14px;
+  margin: 18px 0;
+  box-shadow: 0 6px 18px rgba(2,6,23,0.35);
+  backdrop-filter: blur(8px);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.titleWrap { flex: 1; }
+.role { font-size: 1.05rem; margin: 0; font-weight: 700; }
+.company { color: rgba(255,255,255,0.7); margin-top: 6px; }
+.meta { margin-top: 8px; display:flex; gap:8px; align-items:center; }
+.type { font-size:0.82rem; color: rgba(255,255,255,0.55); padding:4px 8px; border-radius:8px; background: rgba(0,0,0,0.18); }
+.current { font-size:0.82rem; color:#ffd580; font-weight:600; }
+
+.sideMeta { text-align: right; min-width:160px; }
+.duration, .location { display:flex; gap:8px; align-items:center; justify-content:flex-end; color: rgba(255,255,255,0.6); font-size:0.9rem; }
+
+.body { display:flex; gap:18px; align-items:flex-start; }
+.responsibilities { flex: 1; }
+.responsibilities h4 { margin: 0 0 8px 0; font-size:0.95rem }
+.responsibilities ul { margin: 0; padding-left: 18px; color: rgba(255,255,255,0.85); }
+.responsibilities li { margin-bottom:6px; }
+
+.sideRight { width:260px; display:flex; flex-direction:column; gap:12px; }
+.techWrap { display:flex; flex-wrap:wrap; gap:8px; }
+.tech { padding:6px 8px; border-radius:8px; background: rgba(255,255,255,0.03); color: rgba(255,255,255,0.9); font-size:0.82rem }
+
+.achievements { display:flex; flex-direction:column; gap:6px; }
+.achievement { background: rgba(0,0,0,0.14); padding:6px 8px; border-radius:8px; font-weight:600; text-align:center }
+
+.stats { display:flex; gap:10px; justify-content:flex-end; }
+.stat { text-align:center; }
+.statValue { font-weight:800; font-size:1.05rem }
+.statLabel { font-size:0.78rem; color: rgba(255,255,255,0.6) }
+
+@media (max-width: 900px) {
+  .body { flex-direction: column; }
+  .sideRight { width:100%; order: 2; }
+  .sideMeta { text-align: left; }
+}

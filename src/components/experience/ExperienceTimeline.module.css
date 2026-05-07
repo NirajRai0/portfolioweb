@@ -1,0 +1,8 @@
+.timelineWrap { position: relative; padding-left: 28px; }
+.line { position: absolute; left: 12px; top: 0; bottom: 0; width: 2px; background: linear-gradient(180deg,#ffb347, #ffcc33); opacity: 0.12; border-radius: 2px; }
+.items { display: grid; grid-template-columns: 1fr; gap: 12px; }
+
+@media (min-width: 900px) {
+  .timelineWrap { padding-left: 40px; }
+  .items { grid-template-columns: 1fr; }
+}

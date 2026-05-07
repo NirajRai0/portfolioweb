@@ -183,15 +183,15 @@ const Skills = () => {
           <div className="summary-card">
             <FaFire className="summary-icon" />
             <div className="summary-content">
-              <h3>2.5+ Years</h3>
+              <h3>3.5+ Years</h3>
               <p>Professional Development Experience</p>
             </div>
           </div>
           <div className="summary-card">
             <FaMobile className="summary-icon" />
             <div className="summary-content">
-              <h3>10+ Apps</h3>
-              <p>Delivered to Production</p>
+              <h3>12</h3>
+              <p>Apps Delivered to Production</p>
             </div>
           </div>
           <div className="summary-card">

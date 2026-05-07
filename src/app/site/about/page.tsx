@@ -32,7 +32,7 @@ export default function AboutPage() {
     {
       icon: <FaCode />,
       title: "React Native Expert",
-      description: "Cross-platform mobile app development with 2.5+ years of experience"
+      description: "Cross-platform mobile app development with 3.5+ years of experience"
     },
     {
       icon: <FaMobile />,
@@ -101,7 +101,7 @@ export default function AboutPage() {
           <h1 className={styles.title}>About Me</h1>
           
           <p className={styles.description}>
-            I am a <strong>Senior React Native Developer</strong> with 2.5+ years of experience 
+            I am a <strong>Senior React Native Developer</strong> with 3.5+ years of experience 
             building enterprise-grade mobile applications. I specialize in creating high-performance, 
             scalable solutions that deliver exceptional user experiences across iOS and Android platforms.
           </p>
