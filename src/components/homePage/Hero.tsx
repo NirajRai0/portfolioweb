@@ -235,7 +235,8 @@ export default function Hero() {
           src="/selfIntro.m4a"
           onTimeUpdate={handleTimeUpdate}
         />
-
+ 
+ 
         <motion.div
           className={styles.stats}
           initial={{ opacity: 0, y: 30 }}
